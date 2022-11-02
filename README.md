@@ -5,7 +5,7 @@ coordinate system by registering the road map to the reference road map.
 
 ## Build
 The project depends on the OpenCV, shapelib and the nanoflann. 
-You can install the nanoflann following introdcution in: https://github.com/jlblancoc/nanoflann.
+You can install the nanoflann following introduction in: https://github.com/jlblancoc/nanoflann.
 And you should change the opencv path in the top cmakelist file to your own opencv path.
 The shapelib is used to read .shp files, and convert them into images. We provide the lib in the directory ‘third_lib’.
 
